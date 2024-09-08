@@ -15,8 +15,8 @@ const services = [
 const Services = () => (
   <section className="relative mb-4 mr-0 py-12 lg:mr-5 xl:mr-0">
     <div className="grid w-full grid-cols-1 items-center justify-start gap-10 lg:grid-cols-2 xl:gap-12">
-      <div className="flex w-full items-start justify-center lg:justify-start">
-        <div className="relative h-[200px] w-full border-4 border-white/20 bg-black/10 sm:h-[300px] lg:h-[500px] lg:rounded-xl lg:border-2">
+      <div className="flex w-full items-start justify-center sm:justify-start">
+        <div className="relative h-[200px] w-full border-4 border-white/20 bg-black/10 sm:h-[300px] sm:w-[500px] lg:h-[500px] lg:w-full lg:rounded-xl lg:border-2">
           <Image
             className="absolute top-0 -z-10 mx-auto h-full w-full bg-center object-cover saturate-100 lg:rounded-xl"
             src={Img}

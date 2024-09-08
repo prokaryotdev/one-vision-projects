@@ -55,7 +55,7 @@ const Gallery = () => (
             </p>
             <button className="flex items-center gap-x-2 rounded-[8px] border border-white/10 px-4 py-2 text-sm font-bold text-white/80 transition-colors hover:bg-white/5">
               <span> View Project</span>
-              <Search className="size-[17px]" />
+              <ArrowRight className="size-[17px]" />
             </button>
           </div>
         </div>

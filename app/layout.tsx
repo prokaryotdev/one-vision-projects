@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       "Discover exceptional architectural and interior design services with One Vision Projects. Our skilled team transforms spaces with innovative design solutions.",
     url: "https://one-vision-projects.vercel.app/",
-    images: "./p3.jpg",
+    images: "./img5.jpg",
   },
 };
 
