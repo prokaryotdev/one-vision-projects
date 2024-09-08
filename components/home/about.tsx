@@ -32,7 +32,7 @@ const About = () => (
     <div className="inline-flex w-full flex-col items-center justify-center gap-10 lg:items-start">
       <div className="flex w-full flex-col items-start justify-center gap-4">
         <div className="flex w-full flex-col justify-start gap-3 lg:items-start">
-          <h2 className="text-2xl font-semibold text-white/90 lg:text-start lg:text-4xl">
+          <h2 className="text-2xl font-semibold text-white lg:text-start lg:text-4xl">
             One Vision Projects
           </h2>
           <p className="mb-2 text-base font-[300] leading-relaxed text-white/50 lg:text-start">
@@ -58,7 +58,7 @@ const About = () => (
             {icon}
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-white/90">{value}</h3>
+            <h3 className="text-2xl font-bold text-white">{value}</h3>
             <p className="text-xs text-white/50">{label}</p>
           </div>
         </div>

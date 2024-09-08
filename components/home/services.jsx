@@ -31,7 +31,7 @@ const Services = () => (
               Our Services
             </h6>
             <div className="flex w-full flex-col justify-start gap-y-3 lg:items-start">
-              <h2 className="text-2xl font-semibold text-white/90 lg:text-start lg:text-4xl">
+              <h2 className="text-2xl font-semibold text-white lg:text-start lg:text-4xl">
                 Optimizing Space
               </h2>
               <p className="text-base font-[300] leading-relaxed text-white/50 lg:text-start">
@@ -46,9 +46,9 @@ const Services = () => (
         <div>
           {services.map((service, index) => (
             <div key={index} className="mb-1 flex items-center gap-2">
-              <Check className="size-[20px] font-bold text-white/90" />
+              <Check className="size-[20px] font-bold text-white" />
 
-              <span className="text-white/90">{service}</span>
+              <span className="text-white">{service}</span>
             </div>
           ))}
         </div>

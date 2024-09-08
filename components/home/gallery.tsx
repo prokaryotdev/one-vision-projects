@@ -14,7 +14,7 @@ const Gallery = () => (
       <div className="inline-flex w-full flex-col items-center justify-center gap-10 lg:items-start">
         <div className="flex w-full flex-col items-start justify-center gap-8">
           <div className="flex w-full flex-col justify-start gap-3 lg:items-start">
-            <h2 className="text-4xl font-semibold text-white/90 lg:text-start">
+            <h2 className="text-4xl font-semibold text-white lg:text-start">
               Gallery
             </h2>
             <p className="mb-2 text-base font-light leading-relaxed text-white/50 lg:text-start">
@@ -46,7 +46,7 @@ const Gallery = () => (
             />
           </div>
           <div className="p-4">
-            <h4 className="mb-2 text-base font-semibold capitalize text-white/90 transition-all duration-500">
+            <h4 className="mb-2 text-base font-semibold capitalize text-white transition-all duration-500">
               Beauty Parlour Design
             </h4>
             <p className="mb-5 text-sm font-normal leading-5 text-white/50 transition-all duration-500">

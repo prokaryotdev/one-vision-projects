@@ -18,12 +18,12 @@ const hero = () => {
   return (
     <>
       <div className="relative mx-auto flex flex-col items-center justify-center px-1 py-10 text-center text-white lg:mb-6 lg:px-4 lg:py-20">
-        <h1 className="z-50 mb-7 text-3xl font-bold drop-shadow-md sm:text-5xl lg:text-6xl xl:text-7xl">
+        <h1 className="mb-7 text-3xl font-bold drop-shadow-md sm:text-5xl lg:text-6xl xl:text-7xl">
           We Create the Dream <br className="hidden sm:block" /> Lifestyle You
           Desire
         </h1>
 
-        <div className="z-50 flex items-center justify-center gap-x-4">
+        <div className="flex items-center justify-center gap-x-4">
           <div className="group relative overflow-hidden rounded-full border border-zinc-800 bg-zinc-900 p-0.5 shadow">
             <span className="absolute inset-[-1000%] animate-[spin_5s_linear_infinite_reverse] bg-[conic-gradient(from_90deg_at_50%_50%,#fff_0%,#09090B_7%)] group-hover:bg-none" />
             <button
