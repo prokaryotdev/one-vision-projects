@@ -1,9 +1,10 @@
+import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 
 const Contact = () => {
   return (
     <div className="mx-auto mb-8 max-w-md text-center lg:flex-auto">
-      <h2 className="text-2xl font-semibold tracking-tight text-white/90 sm:text-4xl lg:text-3xl">
+      <h2 className="text-2xl font-bold tracking-tight text-white/90 sm:text-4xl">
         Transform Your Space <br className="hidden lg:block" /> Functionality
         and Style
       </h2>
@@ -12,10 +13,17 @@ const Contact = () => {
         environment you&apos;ll love.
       </p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
-        <button className="flex items-center gap-x-2 rounded-[8px] border-2 border-white/10 px-4 py-2 text-sm font-bold text-white/80 transition-colors hover:bg-white/5">
-          <span> Contact Us</span>
-          <ArrowRight className="size-[17px]" />
-        </button>
+        <div className="group relative overflow-hidden rounded-full border border-zinc-800 bg-zinc-900 p-0.5 shadow">
+          <span className="absolute inset-[-1000%] animate-[spin_5s_linear_infinite_reverse] bg-[conic-gradient(from_90deg_at_50%_50%,#fff_0%,#09090B_7%)] group-hover:bg-none" />
+          <button
+            className={cn(
+              "flex h-10 w-full items-center justify-center gap-2 rounded-full bg-zinc-900 px-8 font-semibold text-zinc-200 backdrop-blur-xl",
+            )}
+          >
+            <span> Contact Us</span>
+            <ArrowRight className="size-[17px]" />
+          </button>
+        </div>
       </div>
     </div>
   );
