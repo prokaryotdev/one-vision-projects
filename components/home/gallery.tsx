@@ -18,8 +18,8 @@ const Gallery = () => (
               Gallery
             </h2>
             <p className="mb-2 text-base font-light leading-relaxed text-white/50 lg:text-start">
-              Explore our Gallery to see how we bring our clients' visions to
-              life with exceptional design and creativity.
+              Explore our Gallery to see how we bring our clients&apos; visions
+              to life with exceptional design and creativity.
             </p>
           </div>
         </div>

@@ -36,7 +36,7 @@ const Services = () => (
               </h2>
               <p className="text-base font-[300] leading-relaxed text-white/50 lg:text-start">
                 Great interior design supports your needs and lifestyle. By
-                valuing each client's perspective, we create customized
+                valuing each client&apos;s perspective, we create customized
                 solutions that optimize space and enhance value. Our Interior
                 Design Services Comprise:
               </p>

@@ -8,7 +8,7 @@ const Contact = () => {
       </h2>
       <p className="mt-6 text-lg font-light leading-8 text-white/50">
         Contact us to transform your area into a stylish and functional
-        environment you'll love.
+        environment you&apos;ll love.
       </p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <button className="flex items-center gap-x-2 rounded-[8px] border-2 border-white/10 px-4 py-2 text-sm font-bold text-white/80 transition-colors hover:bg-white/5">
