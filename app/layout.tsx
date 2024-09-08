@@ -12,6 +12,13 @@ export const metadata: Metadata = {
     "One Vision Projects offers top-tier architectural and interior design services for residential and commercial properties. Our expert team blends form, function, and technology to craft interiors that delight the senses.",
   keywords:
     "architectural design, interior design, residential design, commercial design, creative interiors",
+  openGraph: {
+    title: "One Vision Projects",
+    description:
+      "Discover exceptional architectural and interior design services with One Vision Projects. Our skilled team transforms spaces with innovative design solutions.",
+    url: "https://one-vision-projects.vercel.app/",
+    images: "./img1.jpg",
+  },
 };
 
 export default function RootLayout({
