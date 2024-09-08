@@ -3,10 +3,11 @@ import { ArrowRight } from "lucide-react";
 const Contact = () => {
   return (
     <div className="mx-auto mb-8 max-w-md text-center lg:flex-auto">
-      <h2 className="text-3xl font-semibold tracking-tight text-white/90 sm:text-4xl">
-        Transform Your Space <br /> Functionality and Style
+      <h2 className="text-2xl font-semibold tracking-tight text-white/90 sm:text-4xl lg:text-3xl">
+        Transform Your Space <br className="hidden lg:block" /> Functionality
+        and Style
       </h2>
-      <p className="mt-6 text-lg font-light leading-8 text-white/50">
+      <p className="mt-4 font-light leading-8 text-white/50 lg:mt-6 lg:text-lg">
         Contact us to transform your area into a stylish and functional
         environment you&apos;ll love.
       </p>

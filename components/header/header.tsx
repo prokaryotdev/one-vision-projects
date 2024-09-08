@@ -9,7 +9,7 @@ const Navbar = () => {
   const { toggleNav } = useNavStore();
 
   return (
-    <header className="border-b border-white/30 xl:hidden">
+    <header className="border-b border-white/10 xl:hidden">
       <div className="mx-auto flex w-full max-w-[1000px] items-center justify-between px-5 py-4 sm:px-10">
         <Link href="/">
           <Image

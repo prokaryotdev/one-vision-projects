@@ -15,13 +15,16 @@ const slides = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9];
 
 const hero = () => {
   return (
-    <div className="relative mx-auto mb-10 max-w-[1000px] overflow-hidden rounded-xl bg-white/20 lg:mb-20">
+    <div className="relative mx-auto mb-10 max-w-[1000px] overflow-hidden lg:mb-20">
       <Carousel>
         {slides.map((slide, index) => (
-          <div key={index} className="relative">
-            <div className="z-50 mx-auto bg-black/60 py-40 lg:py-60"></div>
+          <div
+            key={index}
+            className="relative border-2 border-white/10 bg-white/20"
+          >
+            <div className="z-50 mx-auto bg-black/60 py-44 lg:py-60"></div>
             <Image
-              className="absolute top-0 -z-10 mx-auto h-full w-full object-cover saturate-100"
+              className="absolute top-0 -z-10 mx-auto h-full w-full object-cover"
               src={slide}
               alt=""
             />
@@ -29,7 +32,7 @@ const hero = () => {
         ))}
       </Carousel>
 
-      <div className="absolute bottom-[10%] left-16 right-16 top-[10%] mx-auto flex max-w-[900px] flex-col items-center justify-center px-4 text-center text-white">
+      <div className="absolute bottom-[10%] left-12 right-12 top-[10%] mx-auto flex max-w-[900px] flex-col items-center justify-center px-1 text-center text-white lg:left-16 lg:right-16 lg:px-4">
         <h1 className="mb-7 text-2xl font-bold drop-shadow-md sm:text-4xl lg:text-6xl xl:text-7xl">
           We Create the Dream Lifestyle You Desire
         </h1>
